@@ -1,0 +1,32 @@
+{
+  "common": {
+    "yes": "Yes",
+    "no": "No",
+    "delete": "Delete",
+    "addToBest": "Add to best albums list",
+    "removeFromBest": "Remove from best albums list",
+    "examplePage": "Example page"
+  },
+  "addForm": {
+    "heading": "Your favourite music albums",
+    "add": "Add"
+  },
+  "filter": {
+    "sort": "Sort by",
+    "sort1": "Name A-Z",
+    "sort2": "Name Z-A",
+    "sort3": "From the newest",
+    "sort4": "From the oldest",
+    "sort5": "ID A-Z",
+    "sort6": "ID Z-Z"
+  },
+  "musicItem": {
+    "createdAt": "Created at",
+    "modal": {
+      "text": "Are you sure you want to remove this album?"
+    }
+  },
+  "footer": {
+    "text": "All rights reserved"
+  }
+}
