@@ -10,6 +10,7 @@ const useStyles = makeStyles(() =>
       },
       body: {
         backgroundColor: "#f4f6f8",
+        fontFamily: "Roboto",
       },
       a: {
         textDecoration: "none",
