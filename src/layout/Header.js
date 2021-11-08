@@ -29,19 +29,7 @@ const Header = () => {
           </Link>
         </Typography>
 
-        <Select
-          id="language"
-          sx={{
-            lineHeight: "1.2em",
-            ".MuiSelect-select": {
-              minHeight: "1.2em !important",
-              paddingTop: "10.5px",
-              paddingBottom: "10.5px",
-            },
-          }}
-          value={language}
-          onChange={handleLanguageChange}
-        >
+        <Select id="language" value={language} onChange={handleLanguageChange}>
           <MenuItem value="en">EN</MenuItem>
           <MenuItem value="pl">PL</MenuItem>
         </Select>

@@ -55,14 +55,6 @@ const MusicFilters = ({ sortType, setSortType, viewType, setViewType }) => {
         <Select
           id="sort-type"
           value={sortType}
-          sx={{
-            lineHeight: "1.2em",
-            ".MuiSelect-select": {
-              minHeight: "1.2em !important",
-              paddingTop: "10.5px",
-              paddingBottom: "10.5px",
-            },
-          }}
           onChange={(e) => setSortType(e.target.value)}
         >
           <MenuItem value="1">{t("sort1")}</MenuItem>
